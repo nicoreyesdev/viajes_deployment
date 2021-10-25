@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block slider 
+    .slider 
+        h1 Rio de Janeiro  
+        em Aventura 
+
+block contenido 
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros 
+        .row.mb-5
+            .col-md-6 
+                p Nuestra empresa, altamente especializada en turismo exterior le invita a contactarnos y darnos la oportunidad de organizarle un viaje diferente teniendo en cuenta cada detalle que le pemita sentirse a gusto todo el tiempo.
+                p Brindamos un servicio 100% seguro, amplia variedad de destinos y precios accesibles
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="img nosotros", class="img-fluid")
+        include ./layout/bloque_viajes
+
+    .descuento 
+        .container
+            .row 
+                .col-md-6 
+                    .contenido 
+                        h3 15% de Descuento 
+                        p.titulo Viaje a Canada
+                        p.fecha 20 de Marzo de 2022 - 28 de Marzo de 2022
+                        p.precio $1000 USD
+    .container  
+        h2.mt-5.text-center Testimoniales
+            include ./layout/bloque_testimoniales 
+
+        

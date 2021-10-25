@@ -1,0 +1,27 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Nosotros", class="img-fluid")
+            .col-md-7
+                h1= pagina
+                blockquote Nuestra empresa, altamente especializada en turismo exterior le invita a contactarnos y darnos la oportunidad de organizarle un viaje diferente teniendo en cuenta cada detalle que le pemita sentirse a gusto todo el tiempo.
+                p Contamos con un equipo con experiencia y el mejor trato hacia el cliente, los mejores destinos para unas cómodas y divertidas vacaciones, contando con experiencias únicas tanto para la familia, como para viajes en pareja o individuales.
+                p Permítanos ratificarle nuestra experiencia y competitividad, estamos comprometidos con brindar el mejor servicio a precios accesibles.
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row
+                .col-md-4   
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Brindamos un servicio 100% seguro, utilizando medidas de seguridad de alta calidad.
+                .col-md-4   
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Los mejores destinos 
+                    p Amplia variedad de destinos, incluyendo los más visitados
+                .col-md-4   
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los mejores precios
+                    p Precios accesibles, buscando democratizar el placer de viajar.
